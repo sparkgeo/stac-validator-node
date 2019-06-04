@@ -1,0 +1,45 @@
+{
+	"author": "SparkGeo",
+	"name": "stac-validator-node",
+	"description": "validate json as being compliant to the STAC specification",
+	"version": "0.1",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/sparkgeo/stac-validator-node.git"
+	},
+	"keywords": [
+		"STAC",
+		"geospatial",
+		"node",
+		"data",
+		"validator",
+		"validation"
+	],
+	"contributors": [
+		{
+			"name": "Derek Jacoby"
+		}
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"mocha": "^6.1.4",
+		"nodemon": "^1.19.1"
+	},
+	"main": "lib/index.js",
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"example": "nodemon -w lib -w examples examples",
+		"release": "bash scripts/release.sh"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"licenses": [
+		{
+			"type": "Apache2.0",
+			"url": "https://github.com/sparkgeo/stac-validator-node/blob/master/LICENSE"
+		}
+	]
+}
