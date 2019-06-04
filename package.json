@@ -22,6 +22,7 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
+		"chai": "^4.2.0",
 		"mocha": "^6.1.4",
 		"nodemon": "^1.19.1"
 	},
@@ -31,7 +32,8 @@
 	],
 	"scripts": {
 		"example": "nodemon -w lib -w examples examples",
-		"release": "bash scripts/release.sh"
+		"release": "bash scripts/release.sh",
+		"test": "mocha"
 	},
 	"engines": {
 		"node": ">=8.0.0"
