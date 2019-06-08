@@ -12,7 +12,6 @@ Example usages can be found below
 
 * nodejs (tested on v10.16.0)
 * npm
-
 (others referenced in package.json)
 
 For tests
