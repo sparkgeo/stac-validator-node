@@ -1,4 +1,9 @@
-# Spatial Temporal Asset Catalog (STAC) Validator for nodejs
+# THIS PROJECT IS NO LONGER MAINTAINED.
+
+## FOR NODE STAC VALIDATION PLEASE SEE https://github.com/stac-utils/stac-node-validator
+
+---
+## Spatial Temporal Asset Catalog (STAC) Validator for nodejs
 
 
 This utility allows users to validate STAC json files against the [STAC](https://github.com/radiantearth/stac-spec) spec.
